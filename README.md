@@ -102,7 +102,7 @@
 ## Setting
 1. Klik instance *LB*
 2. Connect
-3. 
+3. Kemudian
 
 
 
