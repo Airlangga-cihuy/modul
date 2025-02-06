@@ -99,6 +99,16 @@
 
 ---
 
+## Elastic IP addresses
+1. Cari ec2
+2. Cari elastic ip addresses
+3. Allocate elastis ip addreses
+4. 
+
+##
+
+---
+
 ## Setting LB
 1. Klik instance *LB*
 2. Connect
@@ -112,7 +122,27 @@
 ## Setting web 1 & 2
 1. Klik web 1
 2. Connect
-3. 
+3. Kemudian ke web dan cari modul.studentsakti.web.id dan cari *INTALASI EC2 DIAWS
+4. Ikuti langkah-langkah dimodul tersebut
+5. Ketika sudah masuk kedalam konfigurasinya perhatikan!
+6. "Alamat endpoint dari rds"."nama database yang dibuat dipgadmin."username rds"."pasword rds"
+7. Isi sesuai dengan konfigurasi di rds
+8. Kemudian lakukan hal sama pada web ke 2
+
+---
+
+## DUCKDNS
+1. Ketik digoogle dan cari *DUCKDNS*
+2. Kemudian login dengan akun google
+3. Kemudian di*sub domain* dan ketik *LATIHANUPRAKNAMAKAMU*
+4. Klik *ADD DOMAIN*
+5. Pada domain dinama memasukan nama kemudian masukkan ip public dari instance lb
+6. Klik update ip
+7. Kemudian copy
+8. Masuk lagi kedalam konfigurasi lb
+9. kemudian cari kalimat *HOSTNAME*
+10. Laku ganti dengan copy an dari duckdns tadi
+11. Kemudian restart lb dan test diinternet
 
 
 
