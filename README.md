@@ -103,6 +103,9 @@
 1. Klik instance *LB*
 2. Connect
 3. Kemudian Klik file bernama *LB* digithub saya atau masuk ke web modul.studentsakti.web.id dan cari *MODUL LOAD BALANCER DI NGINX*
+4. Dikonfigurasi cari *IP PUBliC 1 & 2*
+5. Hapus kalimat *IP PUBLIC 1 & 2*
+6. Kemudian ganti dengan ip private dari instance web 1 & 2
 
 ---
 
