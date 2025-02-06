@@ -52,5 +52,60 @@
 
 ---
 
-##
+## Cara remote dengan aplikasi *pgadmin*
+**NOTE**=*SEBELUM MASUK KE LANGKAH INI HARAP DOWNLOAD DULU PGADMIN DIGOOGLLE*
+
+---
+
+1. Buka aplikasi *PGADMIN*
+2. Klik *ADD SERVER*
+3. Nama: sesuai nama database kalian
+4. Klik menu *CONNECTION*
+5. Hostname/address: isi endpoint database server yang dibuat di aws
+6. Port:5342
+7. Username:*POSTGRES*
+8. Pasword:*LATIHAN123*
+9. Save
+
+ ---
+
+ ## Cara melihat endpoint
+ 1. Ketik *RDS*
+ 2. Klik database yang sudah kalian buat
+ 3. Cari menu *CONNECTIVITY & SECURITY*
+ 4. Scrool kebawah dan cari *ENDPOINT & PORT*
+ 5. Cari *ENDPOINT*
+ 6. Kemudian copy
+
+---
+
+## Membuat load balancer
+
+---
+## Membuat instance
+1. Pergi ke menu *EC2*
+2. Klik *INSTANCES*
+3. Klik *LAUNCH INSTANCES*
+4. Name:bebas
+5. Number of instance:3
+6. OS:UBUNTU
+7. Keypair:vockey
+8. Allow SSH traffic from: *CENTANG*
+9. Allow HTTPS traffic from the internet: *CENTANG*
+10. Allow HTTP traffic from the internet: *CENTANG*
+11. *LAUNCH INSTANCE*
+12. Kemudian namai ke tiga instance tadi
+13. Untuk yang pertama berikan nama *LB* dan sisanya berikan nama *WEB 1 DAN WEB 2*
+
+---
+
+## Setting
+1. Klik instance *LB*
+2. Connect
+3. 
+
+
+
+
+
 
