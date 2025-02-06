@@ -99,10 +99,17 @@
 
 ---
 
-## Setting
+## Setting LB
 1. Klik instance *LB*
 2. Connect
-3. Kemudian
+3. Kemudian Klik file bernama *LB* digithub saya atau masuk ke web modul.studentsakti.web.id dan cari *MODUL LOAD BALANCER DI NGINX*
+
+---
+
+## Setting web 1 & 2
+1. Klik web 1
+2. Connect
+3. 
 
 
 
