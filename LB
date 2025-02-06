@@ -1,0 +1,40 @@
+INTALASI DI LB
+sudo apt update
+
+sudo apt upgrade -y
+
+### Install Nginx
+
+sudo apt install nginx -y
+
+Verifikasi Instalasi
+
+sudo systemctl status nginx
+
+Konfigurasi Ngnix
+
+sudo nano /etc/nginx/sites-available/default
+
+Kemudian masukan konfigurasi
+upstream backend {
+    # List of backend servers (NGINX instances)
+    server ip public1:80; 
+    server ip public2:80; 
+    # Jika Anda menambahkan server lain, tambahkan di sini
+}
+
+server {
+    listen 80;  # Load balancer will listen on port 80
+
+    server_name localhost;  # Ganti dengan domain atau IP server Anda
+
+    location / {
+        proxy_pass http://backend;  # Mengarahkan ke upstream backend
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+}
+
+**NOTE**= SEBELUM MEMASUKAN KONFIGURASI HARAP HAPUS SEMUA KONFIGURASI DILB DENGAN CARA TEKAN CNTL+K
