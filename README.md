@@ -127,7 +127,7 @@
 4. Allocate elastis ip addreses
 5. Allocate
 6. Klik Associate Elastic IP address
-![ftto gambar](
+![ftto gambar](https://github.com/Airlangga-cihuy/modul/blob/main/elastic%20ip%202.jpg)
 8. Instance: Pilih *INSTANCE LB*
 9. Private IP address: Pilih yang tersedia
 10. Klik asociate
@@ -142,8 +142,9 @@
 2. Connect
 3. Kemudian Klik file bernama *LB* digithub saya atau masuk ke web modul.studentsakti.web.id dan cari *MODUL LOAD BALANCER DI NGINX*
 4. Dikonfigurasi cari *IP PUBliC 1 & 2*
-5. Hapus kalimat *IP PUBLIC 1 & 2*
-6. Kemudian ganti dengan ip private dari instance web 1 & 2
+![ftto gambar](
+6. Hapus kalimat *IP PUBLIC 1 & 2*
+7. Kemudian ganti dengan ip private dari instance web 1 & 2
 
 ---
 
