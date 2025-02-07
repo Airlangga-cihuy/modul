@@ -123,13 +123,14 @@
 ## Elastic IP addresses
 1. Cari ec2
 2. Cari elastic ip addresses
-![ftto gambar](
+![ftto gambar](https://github.com/Airlangga-cihuy/modul/blob/main/elastic%20ip%201.jpg)
 4. Allocate elastis ip addreses
 5. Allocate
 6. Klik Associate Elastic IP address
-7. Instance: Pilih *INSTANCE LB*
-8. Private IP address: Pilih yang tersedia
-9. Klik asociate
+![ftto gambar](
+8. Instance: Pilih *INSTANCE LB*
+9. Private IP address: Pilih yang tersedia
+10. Klik asociate
 
 
 ##
