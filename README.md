@@ -20,7 +20,7 @@
 ---
 
 ## UPLOAD FILE DI S3 BUCKET
-![ftto gambar](
+![ftto gambar](https://github.com/Airlangga-cihuy/modul/blob/main/S3bucket.png)
 1. Cari minimal 2 gambar di google dan simpan di file JPG
 2. Klik Add files
 3. pilih file lalu, klik file yang akan di updoad
@@ -38,12 +38,13 @@
 1. Kemenu ec2
 2. Cari security group
 3. Create security group
-4. NAMA: *SGLATIHANUPRAKNAMAKAMU*
-5. Decription:bebas
-6. VPC: Default
-7. Inbound rules:->SSH->HTTP->HTTPS->POSTGRESQL
-8. Destination:*ANYWHERE-IPV4
-9. Create security group
+!
+5. NAMA: *SGLATIHANUPRAKNAMAKAMU*
+6. Decription:bebas
+7. VPC: Default
+8. Inbound rules:->SSH->HTTP->HTTPS->POSTGRESQL
+9. Destination:*ANYWHERE-IPV4
+10. Create security group
 
 ---
 
