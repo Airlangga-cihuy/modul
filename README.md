@@ -10,11 +10,12 @@
 ## MEMBUAT S3 BUCKET
 
 1. Ketik s3 di dashboard
-2. Kemudian *KLIK CREATE BUCKET*
-3. Masukan nama bucket
-4. Matikan block all access
-5. Ceklis kotak kuning dibawahnya
-6. Kemudian *create bucket*
+!(ftoo gambar)(https://github.com/Airlangga-cihuy/modul/blob/main/s3.png)
+3. Kemudian *KLIK CREATE BUCKET*
+4. Masukan nama bucket
+5. Matikan block all access
+6. Ceklis kotak kuning dibawahnya
+7. Kemudian *create bucket*
 
 ---
 
