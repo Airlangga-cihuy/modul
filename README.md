@@ -161,19 +161,59 @@
 
 ---
 
-## DUCKDNS
-1. Ketik digoogle dan cari *DUCKDNS*
-2. Kemudian login dengan akun google
-3. Kemudian di*sub domain* dan ketik *LATIHANUPRAKNAMAKAMU*
-4. Klik *ADD DOMAIN*
-5. Pada domain dinama memasukan nama kemudian masukkan ip public dari instance lb
-![ftto gambar](https://github.com/Airlangga-cihuy/modul/blob/main/DUCKDNS.jpg)
-7. Klik update ip
-8. Kemudian copy
-9. Masuk lagi kedalam konfigurasi lb
-10. kemudian cari kalimat *HOSTNAME*
-11. Laku ganti dengan copy an dari duckdns tadi
-12. Kemudian restart lb dan test diinternet
+## KONFIGURASI DOMAIN DI DUCKDNS
+1. masuk ke https://www.duckdns.org
+2. login dengan akun gmail kalian
+3. lalu membuat domain dengan : lbnamasiswa
+4. lalu klik add domain dan tambahkan alamat ip publik dari load balancer EC2
+1[ftoo gambar](
+6. lalu klik update ip
+   sekarang anda coba domain anda di web browser
+   
+---
+
+## KONFIGURASI SSL PADA DOMAIN DUCKDNS
+pada ssh load balancer EC2 massukan perintah berikut:
+
+1. sudo nano /etc/nginx/sites-enabled/default
+
+pada konfigurasi default nginx bagian cetak tebal ini : 
+
+server { 
+listen 80; 
+server_name lbnamasiswa.duckdns.org;
+
+ganti dengan nama domain yang sudah anda siapkan tadi
+lalu save, dan lanjutkan perintah di bawah ini
+
+2. sudo apt install certbot python3-certbot-nginx
+3. sudo certbot --nginx -d lbnamasiswa.duckdns.org
+massukan email lalu klik enter
+pilih opsi Y klik enter
+pilih opsi N klik enter
+4. sudo nginx -t
+
+sekarang anda coba buka domain anda seperti di bawah ini
+https://lbnamasiswa.duckdns.org
+
+---
+
+## JIKA ADA ERROR : 
+    mungkin anda perlu start/restart nginx anda dengan perintah
+1. sudo systemctl start nginx
+2. sudo systemctl restart nginx
+
+    mungkin konfigurasi anda masukkan salah/belum benar
+anda perlu mengecek file konfigurasinya lagi
+
+tempat file konfigurasi nginx load balancer
+3. /etc/nginx/sites-enabled/default
+
+tempat file konfigurasi web server nginx
+4. /var/www/sekolah
+
+
+
 
 
 
