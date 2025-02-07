@@ -167,7 +167,7 @@
 3. Kemudian di*sub domain* dan ketik *LATIHANUPRAKNAMAKAMU*
 4. Klik *ADD DOMAIN*
 5. Pada domain dinama memasukan nama kemudian masukkan ip public dari instance lb
-
+![ftto gambar](https://github.com/Airlangga-cihuy/modul/blob/main/DUCKDNS.jpg)
 7. Klik update ip
 8. Kemudian copy
 9. Masuk lagi kedalam konfigurasi lb
