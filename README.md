@@ -89,12 +89,13 @@
 
  ## Cara melihat endpoint
  1. Ketik *RDS*
-![ftto gambar](
+![ftto gambar](https://github.com/Airlangga-cihuy/modul/blob/main/RDS%201.jpg)
  3. Klik database yang sudah kalian buat
  4. Cari menu *CONNECTIVITY & SECURITY*
  5. Scrool kebawah dan cari *ENDPOINT & PORT*
  6. Cari *ENDPOINT*
- 7. Kemudian copy
+![ftto gambar](
+ 8. Kemudian copy
 
 ---
 
