@@ -38,7 +38,7 @@
 1. Kemenu ec2
 2. Cari security group
 3. Create security group
-!
+![ftto gambar](https://github.com/Airlangga-cihuy/modul/blob/main/sg.png)
 5. NAMA: *SGLATIHANUPRAKNAMAKAMU*
 6. Decription:bebas
 7. VPC: Default
