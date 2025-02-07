@@ -166,7 +166,7 @@
 2. login dengan akun gmail kalian
 3. lalu membuat domain dengan : lbnamasiswa
 4. lalu klik add domain dan tambahkan alamat ip publik dari load balancer EC2
-1[ftoo gambar](
+1[ftoo gambar](https://github.com/Airlangga-cihuy/modul/blob/main/DUCKDNS.jpg)
 6. lalu klik update ip
    sekarang anda coba domain anda di web browser
    
