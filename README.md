@@ -51,20 +51,21 @@
  ## CREATE RDS
 **TAG**= Sebelum membuat rds harap membuat security group terlebih dahulu di ec2
  1. Ketik *RDS* di dashboard
- 2. Klik *RDS*
- 3. Pilih *STANDART CREATE*
- 4. Engine options =*POSGRESQL*
- 5. Engine version = bebas
- 6. Template = free tier
- 7. DB INSTANCE IDENTIFIER = nama database yang dibuat
- 8. Master username =*POSTGRES*
- 9. Master pasword = *BEBAS*
- 10. Confirm pasword = Seperti master pasword
- 11. Instance configuration = db.t3.micro
- 12. STORAGE = 20GB
- 13. Public access = yes
- 14. Vpc security group =yang kalian buat tadi
- 15. KLIK *CREATE RDS*
+![ftto gambar](https://github.com/Airlangga-cihuy/modul/blob/main/RDS.jpg)
+ 3. Klik *RDS*
+ 4. Pilih *STANDART CREATE*
+ 5. Engine options =*POSGRESQL*
+ 6. Engine version = bebas
+ 7. Template = free tier
+ 8. DB INSTANCE IDENTIFIER = nama database yang dibuat
+ 9. Master username =*POSTGRES*
+ 10. Master pasword = *BEBAS*
+ 11. Confirm pasword = Seperti master pasword
+ 12. Instance configuration = db.t3.micro
+ 13. STORAGE = 20GB
+ 14. Public access = yes
+ 15. Vpc security group =yang kalian buat tadi
+ 16. KLIK *CREATE RDS*
 
 ---
 
