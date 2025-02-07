@@ -94,7 +94,7 @@
  4. Cari menu *CONNECTIVITY & SECURITY*
  5. Scrool kebawah dan cari *ENDPOINT & PORT*
  6. Cari *ENDPOINT*
-![ftto gambar](
+![ftto gambar](https://github.com/Airlangga-cihuy/modul/blob/main/RDS%202.jpg)
  8. Kemudian copy
 
 ---
