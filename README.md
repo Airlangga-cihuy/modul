@@ -103,7 +103,12 @@
 1. Cari ec2
 2. Cari elastic ip addresses
 3. Allocate elastis ip addreses
-4. 
+4. Allocate
+5. Klik Associate Elastic IP address
+6. Instance: Pilih *INSTANCE LB*
+7. Private IP address: Pilih yang tersedia
+8. Klik asociate
+
 
 ##
 
