@@ -154,7 +154,7 @@
 3. Kemudian ke web dan cari modul.studentsakti.web.id dan cari *INTALASI EC2 DIAWS
 4. Ikuti langkah-langkah dimodul tersebut
 5. Ketika sudah masuk kedalam konfigurasinya perhatikan!
-
+![ftto gambar](https://github.com/Airlangga-cihuy/modul/blob/main/WEB%201.jpg)
 7. "Alamat endpoint dari rds"."nama database yang dibuat dipgadmin."username rds"."pasword rds"
 8. Isi sesuai dengan konfigurasi di rds
 9. Kemudian lakukan hal sama pada web ke 2
@@ -167,12 +167,13 @@
 3. Kemudian di*sub domain* dan ketik *LATIHANUPRAKNAMAKAMU*
 4. Klik *ADD DOMAIN*
 5. Pada domain dinama memasukan nama kemudian masukkan ip public dari instance lb
-6. Klik update ip
-7. Kemudian copy
-8. Masuk lagi kedalam konfigurasi lb
-9. kemudian cari kalimat *HOSTNAME*
-10. Laku ganti dengan copy an dari duckdns tadi
-11. Kemudian restart lb dan test diinternet
+
+7. Klik update ip
+8. Kemudian copy
+9. Masuk lagi kedalam konfigurasi lb
+10. kemudian cari kalimat *HOSTNAME*
+11. Laku ganti dengan copy an dari duckdns tadi
+12. Kemudian restart lb dan test diinternet
 
 
 
