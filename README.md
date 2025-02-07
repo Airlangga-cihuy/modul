@@ -104,30 +104,32 @@
 ---
 ## Membuat instance
 1. Pergi ke menu *EC2*
-2. Klik *INSTANCES*
-3. Klik *LAUNCH INSTANCES*
-4. Name:bebas
-5. Number of instance:3
-6. OS:UBUNTU
-7. Keypair:vockey
-8. Allow SSH traffic from: *CENTANG*
-9. Allow HTTPS traffic from the internet: *CENTANG*
-10. Allow HTTP traffic from the internet: *CENTANG*
-11. *LAUNCH INSTANCE*
-12. Kemudian namai ke tiga instance tadi
-13. Untuk yang pertama berikan nama *LB* dan sisanya berikan nama *WEB 1 DAN WEB 2*
+![ftto gambar](https://github.com/Airlangga-cihuy/modul/blob/main/EC2.jpg)
+3. Klik *INSTANCES*
+4. Klik *LAUNCH INSTANCES*
+5. Name:bebas
+6. Number of instance:3
+7. OS:UBUNTU
+8. Keypair:vockey
+9. Allow SSH traffic from: *CENTANG*
+10. Allow HTTPS traffic from the internet: *CENTANG*
+11. Allow HTTP traffic from the internet: *CENTANG*
+12. *LAUNCH INSTANCE*
+13. Kemudian namai ke tiga instance tadi
+14. Untuk yang pertama berikan nama *LB* dan sisanya berikan nama *WEB 1 DAN WEB 2*
 
 ---
 
 ## Elastic IP addresses
 1. Cari ec2
 2. Cari elastic ip addresses
-3. Allocate elastis ip addreses
-4. Allocate
-5. Klik Associate Elastic IP address
-6. Instance: Pilih *INSTANCE LB*
-7. Private IP address: Pilih yang tersedia
-8. Klik asociate
+![ftto gambar](
+4. Allocate elastis ip addreses
+5. Allocate
+6. Klik Associate Elastic IP address
+7. Instance: Pilih *INSTANCE LB*
+8. Private IP address: Pilih yang tersedia
+9. Klik asociate
 
 
 ##
