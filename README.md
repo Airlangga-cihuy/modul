@@ -76,23 +76,25 @@
 
 1. Buka aplikasi *PGADMIN*
 2. Klik *ADD SERVER*
-3. Nama: sesuai nama database kalian
-4. Klik menu *CONNECTION*
-5. Hostname/address: isi endpoint database server yang dibuat di aws
-6. Port:5342
-7. Username:*POSTGRES*
-8. Pasword:*LATIHAN123*
-9. Save
+![ftto gambar](https://github.com/Airlangga-cihuy/modul/blob/main/pgadmin.jpg)
+4. Nama: sesuai nama database kalian
+5. Klik menu *CONNECTION*
+6. Hostname/address: isi endpoint database server yang dibuat di aws
+7. Port:5342
+8. Username:*POSTGRES*
+9. Pasword:*LATIHAN123*
+10. Save
 
  ---
 
  ## Cara melihat endpoint
  1. Ketik *RDS*
- 2. Klik database yang sudah kalian buat
- 3. Cari menu *CONNECTIVITY & SECURITY*
- 4. Scrool kebawah dan cari *ENDPOINT & PORT*
- 5. Cari *ENDPOINT*
- 6. Kemudian copy
+![ftto gambar](
+ 3. Klik database yang sudah kalian buat
+ 4. Cari menu *CONNECTIVITY & SECURITY*
+ 5. Scrool kebawah dan cari *ENDPOINT & PORT*
+ 6. Cari *ENDPOINT*
+ 7. Kemudian copy
 
 ---
 
