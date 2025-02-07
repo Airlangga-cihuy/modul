@@ -142,7 +142,7 @@
 2. Connect
 3. Kemudian Klik file bernama *LB* digithub saya atau masuk ke web modul.studentsakti.web.id dan cari *MODUL LOAD BALANCER DI NGINX*
 4. Dikonfigurasi cari *IP PUBliC 1 & 2*
-![ftto gambar](
+![ftto gambar](https://github.com/Airlangga-cihuy/modul/blob/main/LB%201.jpg)
 6. Hapus kalimat *IP PUBLIC 1 & 2*
 7. Kemudian ganti dengan ip private dari instance web 1 & 2
 
@@ -154,9 +154,10 @@
 3. Kemudian ke web dan cari modul.studentsakti.web.id dan cari *INTALASI EC2 DIAWS
 4. Ikuti langkah-langkah dimodul tersebut
 5. Ketika sudah masuk kedalam konfigurasinya perhatikan!
-6. "Alamat endpoint dari rds"."nama database yang dibuat dipgadmin."username rds"."pasword rds"
-7. Isi sesuai dengan konfigurasi di rds
-8. Kemudian lakukan hal sama pada web ke 2
+
+7. "Alamat endpoint dari rds"."nama database yang dibuat dipgadmin."username rds"."pasword rds"
+8. Isi sesuai dengan konfigurasi di rds
+9. Kemudian lakukan hal sama pada web ke 2
 
 ---
 
